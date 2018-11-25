@@ -7,5 +7,7 @@ def run_guessing_game
   while guess != "exit"
    
   end
-
+  if guess == "exit"
+    puts "Goodbye"
+  end
 end
